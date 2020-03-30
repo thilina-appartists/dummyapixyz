@@ -1,0 +1,13 @@
+{
+  "status": true,
+  "data": {
+    "id": "string",
+    "bio": "string",
+    "thumb": "string",
+    "name": "string",
+    "email": "user@example.com",
+    "gender": "string",
+    "doB": "2020-03-30",
+    "mobile": 0
+  }
+}
