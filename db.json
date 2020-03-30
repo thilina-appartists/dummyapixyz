@@ -1,13 +1,25 @@
+
 {
-  "status": true,
-  "data": {
-    "id": "string",
-    "bio": "string",
-    "thumb": "string",
-    "name": "string",
-    "email": "user@example.com",
-    "gender": "string",
-    "doB": "2020-03-30",
-    "mobile": 0
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "createProfile": {
+    "status": true,
+    "data": {
+      "id": "string",
+      "bio": "string",
+      "thumb": "string",
+      "name": "string",
+      "email": "user@example.com",
+      "gender": "string",
+      "doB": "2020-03-30",
+      "mobile": 0
+    }
   }
 }
